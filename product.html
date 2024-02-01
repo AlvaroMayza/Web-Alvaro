@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .form {
+            display: flex;
+            height: 100dvh;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        header {
+            background-color: #333;
+            /* Warna latar belakang header */
+            padding: 10px;
+            text-align: right;
+            position: relative;
+            padding-right: 10;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav li {
+            display: inline;
+            margin-left: 20px;
+            /* Jarak antara setiap elemen list */
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+            /* Warna teks link */
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href>Pricing</a></li>
+                <li><a href>Service</a></li>
+                <li><a href>Blog</a></li>
+                <li><a href>Product</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Pediatoko</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>N0</th>
+                <th>Nama Produk</th>
+                <th>Harga</th>
+                <th>Stok</th>
+                <th>Pembelian</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td style="display: flex;flex-direction: column; justify-content: center; align-items: center; gap: 20px;">RAM
+                    <img src="image/Ram-removebg-preview.png" alt="RAM" style="background-size: cover;" width="100"></td>
+                <td>Rp.10.000</td>
+                <td>50</td>
+                <td>
+                    <button class="button">Beli</button>
+                    <button class="button">Tambah ke Keranjang</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td style="display: flex;flex-direction: column; justify-content: center; align-items: center; gap: 20px;">Hardisk
+                    <img src="image/hardisk-removebg-preview.png" alt="Hardisk" style="background-size: cover;" width="100"></td>
+                <td>Rp.150.000</td>
+                <td>30</td>
+                <td>
+                    <button class="button">Beli</button>
+                    <button class="button">Tambah ke Keranjang</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td style="display: flex;flex-direction: column; justify-content: center; align-items: center; gap: 20px;">Intercom
+                    <img src="image/wireless_intercom-removebg-preview.png" alt="Intercom" style="background-size: cover;" width="100"></td>
+                <td>Rp.500.000</td>
+                <td>20</td>
+                <td>
+                    <button class="button">Beli</button>
+                    <button class="button">Tambah ke Keranjang</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
